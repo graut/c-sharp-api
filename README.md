@@ -153,9 +153,9 @@ Examples
     result = Agile.CreateContact(contactDetail);
     
     
-    //Deleting a contact by email.
-    string email = "dupemail@outlook.com";
-    result = Agile.DeleteContact(email);
+    //Update a contact by email.
+    string contactDetail = @"{""email"":""pintu@hotmail.com"", ""first_name"":""April"", ""last_name"":""Woodlif"",""TeamNumbers"":""5"", ""text sample test"":""text custom"", ""DOP"":""1449599400""}";
+    result = Agile.UpdateContact("pintu@hotmail.com",contactDetail);
     
     
     //Adding Score
