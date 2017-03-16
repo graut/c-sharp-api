@@ -39,17 +39,17 @@ So you have to update your
 
 API's Details
 -------------
-###1. Contact 
-#####1.1 `string Agile.GetContact(string email)`  
+### 1. Contact 
+##### 1.1 `string Agile.GetContact(string email)`  
 This is used to retrieve the contact details of a person. It will return in json format.
 
-#####1.2 `string Agile.CreateContact(string contactJson)`  
+##### 1.2 `string Agile.CreateContact(string contactJson)`  
 This is used to create a new contact with properties mentioned in `contactJson`.
 
-#####1.3 `string Agile.UpdateContact(string email,string contactJson)`
+##### 1.3 `string Agile.UpdateContact(string email,string contactJson)`
 This is used to update a contact with `contactJson`. Please check example for data formate of contactJson.
 
-#####1.4 `string Agile.DeleteContact(string email)`  
+##### 1.4 `string Agile.DeleteContact(string email)`  
 This is used to delete contact details of the person.
 
 ###2. Property
